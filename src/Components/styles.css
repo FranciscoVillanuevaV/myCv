@@ -1,0 +1,15 @@
+.header {
+    background-color: rgb(59, 104, 155);
+}
+
+.icons {
+    font-size: 30px;
+    color: rgb(59, 104, 155);
+}
+
+.cardInfo {
+    margin-top: 30px;
+    margin-bottom: 45px;
+    border: 1.5px dotted rgb(59, 104, 155);
+    box-shadow: 0 1rem 3rem rgba(59, 104, 155, 0.6) !important;
+}
