@@ -25,7 +25,6 @@ function Skills() {
 					<Col style={{marginBottom: "10px"}} xs={6} md={4}>Postman</Col>
 					<Col style={{marginBottom: "10px"}} xs={6} md={4}>Python</Col>
 					<Col style={{marginBottom: "10px"}} xs={6} md={4}>Matlab</Col>
-					<Col style={{marginBottom: "10px"}} xs={6} md={4}>GNU Octave</Col>
 					<Col style={{marginBottom: "10px"}} xs={6} md={4}>LaTeX</Col>
 				</Row>
 				<hr/>

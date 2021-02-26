@@ -9,6 +9,8 @@ import PersonalInfo from './Components/PersonalInfo';
 import Education from './Components/Education';
 import Experience from './Components/Experience';
 import Skills from './Components/Skills';
+import BallsEffectDesktop from './Components/BallsEffectDesktop';
+import BallsEffectMobile from './Components/BallsEffectMobile';
 
 class App extends React.Component {
   constructor(props) {
@@ -23,6 +25,8 @@ class App extends React.Component {
     AOS.init();
     this.stickFix();
 		window.addEventListener('resize', this.stickFix);
+    document.body.addEventListener('mousemove', event => BallsEffectDesktop(event));
+    document.body.addEventListener('touchmove', event => BallsEffectMobile(event));
   }
   calculatePosition = reference => {
     let topPos = 0;
