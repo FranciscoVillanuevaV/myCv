@@ -52,11 +52,7 @@ class App extends React.Component {
   }
   scrollToElement = location => {
 		const position = this.returnPosition(location);
-		window.scroll({
-			top: position - this.menuHeight,
-			left: 0,
-			behavior: 'smooth'
-		});
+    window.scroll(0, position - this.menuHeight);
 	}
   stickFix = () => {
 		if (this.menu.current) {

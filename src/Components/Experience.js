@@ -17,17 +17,17 @@ function Experience() {
 				<Card.Subtitle>Professional practices</Card.Subtitle>
 				<br/>
 				<Card.Text><i className="far fa-calendar-alt fa-fw icons"></i> 2013 </Card.Text>
-				<Card.Text className="text-justify">Educational assistant at the signals and systems laboratory in Facultad de Ingeniería Mecánica y Eléctrica from Universidad Autónoma de Nuevo León.</Card.Text>
+				<Card.Text className="text-justify">Educational assistant at the signals and systems laboratory in Facultad de Ingeniería Mecánica y Eléctrica, Universidad Autónoma de Nuevo León.</Card.Text>
 				<hr/>
 				<Card.Subtitle>Professor</Card.Subtitle>
 				<br/>
 				<Card.Text><i className="far fa-calendar-alt fa-fw icons"></i> 2018 - 2019</Card.Text>
-				<Card.Text className="text-justify">Professor at the engineering field in the UVM Campus Cumbres.</Card.Text>
+				<Card.Text className="text-justify">Professor at the engineering field in the UVM Campus Cumbres. </Card.Text>
 				<hr/>
 				<Card.Subtitle>Software developer</Card.Subtitle>
 				<br/>
 				<Card.Text><i className="far fa-calendar-alt fa-fw icons"></i> 2019 <span className="badge header text-white">Current job</span></Card.Text>
-				<Card.Text className="text-justify">Development of web apps and web APIs at Softtek.</Card.Text>
+				<Card.Text className="text-justify">.NET Development of web apps and web APIs at Softtek.</Card.Text>
 			</Card.Body>
 			</Card>
     )
