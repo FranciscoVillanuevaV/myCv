@@ -43,8 +43,8 @@ function Experience() {
         <Card.Subtitle>Software developer</Card.Subtitle>
         <br />
         <Card.Text>
-          <i className="far fa-calendar-alt fa-fw icons"></i> 2019
-          <span className="badge header text-white">Current job</span>
+          <i className="far fa-calendar-alt fa-fw icons"></i> 2019 -{" "}
+          <span className="h1 badge header text-white">Current job</span>
         </Card.Text>
         <Card.Text className="text-justify">
           .NET Development of web apps and web APIs at Softtek.

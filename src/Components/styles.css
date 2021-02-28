@@ -2,6 +2,14 @@
   background-color: rgb(59, 104, 155);
 }
 
+.card-title {
+  font-weight: bold;
+}
+
+.card-subtitle {
+  font-weight: bold;
+}
+
 .icons {
   font-size: 30px;
   color: rgb(59, 104, 155);
