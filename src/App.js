@@ -71,7 +71,7 @@ class App extends React.Component {
   render() {
     return (
       <div
-        style={{ fontFamily: "Arial, sans-serif" }}
+        style={{ fontFamily: "Lato, sans-serif" }}
         className="container-fluid col-lg-9 col-md-11 col-sm-9"
       >
         <div ref={this.header}>
