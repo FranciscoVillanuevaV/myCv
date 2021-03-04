@@ -44,7 +44,7 @@ function Experience() {
         <br />
         <Card.Text>
           <i className="far fa-calendar-alt fa-fw icons"></i> 2019 -{" "}
-          <span className="h1 badge header text-white">Current job</span>
+          <span className="h1 badge text-white">Current job</span>
         </Card.Text>
         <Card.Text className="text-justify">
           .NET Development of web apps and web APIs at Softtek.
