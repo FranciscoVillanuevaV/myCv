@@ -71,7 +71,7 @@ class App extends React.Component {
   render() {
     return (
       <div
-        style={{ fontFamily: "Lato, sans-serif" }}
+        style={{ fontFamily: "Roboto, sans-serif" }}
         className="container-fluid col-lg-9 col-md-11 col-sm-9"
       >
         <div ref={this.header}>
@@ -80,9 +80,9 @@ class App extends React.Component {
         <Navbar
           ref={this.menu}
           expand="lg"
-          bg="dark"
+          // bg="dark"
           variant="dark"
-          className="rounded"
+          className="rounded menu"
         >
           <Navbar.Brand
             onTouchEnd={() => this.scrollToElement("header")}
