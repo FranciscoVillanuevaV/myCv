@@ -1,6 +1,6 @@
 .header {
   border-style: none;
-  background-image: linear-gradient(90deg, #31337D, #01B59C);
+  background-image: linear-gradient(90deg, #31337d, #01b59c);
 }
 
 .badge {
@@ -17,23 +17,55 @@
 
 .icons {
   font-size: 30px;
-  color: rgb(31, 101, 137);
+  color: rgb(21, 129, 144);
 }
 
 .cardInfo {
   margin-top: 30px;
   margin-bottom: 45px;
-  box-shadow: .25rem .25rem .50rem rgba(204, 204, 204, 0.75)!important;
+  box-shadow: 0.25rem 0.25rem 0.5rem rgba(204, 204, 204, 0.75) !important;
   /* box-shadow: .50rem .50rem 1rem rgba(0,0,0,.075)!important; */
 }
 
 .ball {
-  color: rgba(31, 101, 137, 0.1);
+  color: rgba(21, 129, 144, 0.1);
   width: 35px;
   height: 35px;
   position: absolute;
 }
 
 .menu {
-  background-color: #CCCCCC;
+  background-color: rgb(230, 230, 230);
+}
+
+.menu .navbar-brand {
+  color: rgb(128, 128, 128);
+}
+
+.menu .navbar-brand:hover {
+  color: rgb(128, 128, 128);
+}
+
+.menuLinks .navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(179, 179, 179);
+}
+
+.menuLinks .navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:visited {
+  color: rgb(179, 179, 179);
+}
+
+.menuLinks .navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgb(128, 128, 128);
+}
+
+.menuLinks .navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:active {
+  color: rgb(179, 179, 179);
+}
+
+.myName {
+  font-weight: 100;
 }
