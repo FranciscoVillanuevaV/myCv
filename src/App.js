@@ -80,7 +80,6 @@ class App extends React.Component {
         <Navbar
           ref={this.menu}
           expand="lg"
-          // bg="dark"
           variant="dark"
           className="rounded menu"
         >
