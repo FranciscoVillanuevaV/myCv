@@ -25,6 +25,7 @@ class App extends React.Component {
     AOS.init();
     this.stickFix();
     window.addEventListener("resize", this.stickFix);
+    window.addEventListener("scroll", this.scrollableAnchors);
     document.body.addEventListener("mousemove", (event) =>
       BallsEffectDesktop(event)
     );
@@ -57,6 +58,22 @@ class App extends React.Component {
     const position = this.returnPosition(location);
     window.scroll(0, position - this.menuHeight);
   };
+  scrollableAnchors = () => {
+    this.removeActive();
+    let scPos = window.scrollY;
+    if (scPos >= this.educationOffSetTop && scPos < this.educationOffSetTop + this.educationOffSetHeigth) {
+      document.getElementById('educationLink').classList.add("active");
+    } else if (scPos >= this.experienceOffSetTop && scPos < this.experienceOffSetTop + this.experienceOffSetHeigth - 300) {
+      document.getElementById('experienceLink').classList.add("active");
+    } else if (scPos >= this.skillsOffSetTop - 300 && scPos < this.skillsOffSetTop + this.skillsOffSetHeigth){
+      document.getElementById('skillsLink').classList.add("active");
+    }
+  };
+  removeActive = () => {
+    document.getElementById("educationLink").classList.remove("active");
+    document.getElementById("experienceLink").classList.remove("active");
+    document.getElementById("skillsLink").classList.remove("active");
+  };
   stickFix = () => {
     if (this.menu.current) {
       if (window.innerWidth < 993) {
@@ -67,6 +84,13 @@ class App extends React.Component {
         this.menuHeight = 60;
       }
     }
+    this.educationOffSetHeigth = document.getElementById('education').offsetHeight;
+    this.experienceOffSetHeigth = document.getElementById('experience').offsetHeight;
+    this.skillsOffSetHeigth = document.getElementById('skills').offsetHeight;
+  
+    this.educationOffSetTop = document.getElementById('education').offsetTop - this.menuHeight;
+    this.experienceOffSetTop = document.getElementById('experience').offsetTop - this.menuHeight;
+    this.skillsOffSetTop = document.getElementById('skills').offsetTop - this.menuHeight;
   };
   render() {
     return (
@@ -85,7 +109,10 @@ class App extends React.Component {
         >
           <Navbar.Brand
             onTouchEnd={() => this.scrollToElement("header")}
-            onClick={() => this.scrollToElement("header")}
+            onClick={() => {
+              this.scrollToElement("header");
+              this.removeActive();
+            }}
           >
             Curriculum Vitae
           </Navbar.Brand>
@@ -93,18 +120,21 @@ class App extends React.Component {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="menuLinks mr-auto">
               <Nav.Link
+                id={"educationLink"}
                 onTouchEnd={() => this.scrollToElement("education")}
                 onClick={() => this.scrollToElement("education")}
               >
                 Education
               </Nav.Link>
               <Nav.Link
+                id={"experienceLink"}
                 onTouchEnd={() => this.scrollToElement("experience")}
                 onClick={() => this.scrollToElement("experience")}
               >
                 Professional experience
               </Nav.Link>
               <Nav.Link
+                id={"skillsLink"}
                 onTouchEnd={() => this.scrollToElement("skills")}
                 onClick={() => this.scrollToElement("skills")}
               >
@@ -122,6 +152,7 @@ class App extends React.Component {
         </div>
         <p ref={this.education}></p>
         <div
+          id = "education"
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="3000"
@@ -130,6 +161,7 @@ class App extends React.Component {
         </div>
         <p ref={this.experience}></p>
         <div
+          id = "experience"
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="3000"
@@ -138,6 +170,7 @@ class App extends React.Component {
         </div>
         <p ref={this.skills}></p>
         <div
+          id = "skills"
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="3000"
