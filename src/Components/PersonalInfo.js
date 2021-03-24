@@ -19,7 +19,7 @@ function PersonalInfo() {
           </Col>
           <Col md={8} style={{ marginTop: "40px" }}>
             <p>
-              <i className="fas fa-home fa-fw icons"></i> Nuevo León, MX.{" "}
+              <i className="fas fa-home fa-fw icons"></i> Monterrey, Nuevo León, MX.{" "}
             </p>
             <p>
               <i className="fas fa-envelope fa-fw icons"></i>{" "}
