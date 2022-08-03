@@ -43,11 +43,20 @@ function Experience() {
         <Card.Subtitle>Software developer</Card.Subtitle>
         <br />
         <Card.Text>
-          <i className="far fa-calendar-alt fa-fw icons"></i> 2019 -{" "}
+          <i className="far fa-calendar-alt fa-fw icons"></i> 2019 - 2021
+        </Card.Text>
+        <Card.Text className="text-justify">
+          .NET development of web apps and web APIs at Softtek.
+        </Card.Text>
+        <hr />
+        <Card.Subtitle>Software developer</Card.Subtitle>
+        <br />
+        <Card.Text>
+          <i className="far fa-calendar-alt fa-fw icons"></i> 2021 -{" "}
           <span className="h1 badge text-white">Current job</span>
         </Card.Text>
         <Card.Text className="text-justify">
-          .NET Development of web apps and web APIs at Softtek.
+          Working with Angular and Java development of web APIs. At Akky Online Solutions SA de CV.
         </Card.Text>
       </Card.Body>
     </Card>
