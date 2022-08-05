@@ -13,34 +13,28 @@ function Skills() {
         <br />
         <Row>
           <Col style={{ marginBottom: "10px" }} xs={6} md={4}>
-            JavaScript
-          </Col>
-          <Col style={{ marginBottom: "10px" }} xs={6} md={4}>
-            CSS
-          </Col>
-          <Col style={{ marginBottom: "10px" }} xs={6} md={4}>
-            HTML
-          </Col>
-          <Col style={{ marginBottom: "10px" }} xs={6} md={4}>
-            Bootstrap
-          </Col>
-          <Col style={{ marginBottom: "10px" }} xs={6} md={4}>
-            React
-          </Col>
-          <Col style={{ marginBottom: "10px" }} xs={6} md={4}>
-            JQuery
+            Java
           </Col>
           <Col style={{ marginBottom: "10px" }} xs={6} md={4}>
             C#
           </Col>
           <Col style={{ marginBottom: "10px" }} xs={6} md={4}>
-            Git
+            React
+          </Col>
+          <Col style={{ marginBottom: "10px" }} xs={6} md={4}>
+            Angular
           </Col>
           <Col style={{ marginBottom: "10px" }} xs={6} md={4}>
             Docker
           </Col>
           <Col style={{ marginBottom: "10px" }} xs={6} md={4}>
             SQL
+          </Col>
+          <Col style={{ marginBottom: "10px" }} xs={6} md={4}>
+            Git
+          </Col>
+          <Col style={{ marginBottom: "10px" }} xs={6} md={4}>
+            SVN
           </Col>
           <Col style={{ marginBottom: "10px" }} xs={6} md={4}>
             Postman
@@ -52,7 +46,16 @@ function Skills() {
             MATLAB
           </Col>
           <Col style={{ marginBottom: "10px" }} xs={6} md={4}>
-            LaTeX
+            JavaScript
+          </Col>
+          <Col style={{ marginBottom: "10px" }} xs={6} md={4}>
+            Bootstrap
+          </Col>
+          <Col style={{ marginBottom: "10px" }} xs={6} md={4}>
+            CSS
+          </Col>
+          <Col style={{ marginBottom: "10px" }} xs={6} md={4}>
+            HTML
           </Col>
         </Row>
         <hr />
