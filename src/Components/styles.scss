@@ -1,10 +1,16 @@
+$theBlue: rgb(21, 129, 144);
+$theBallColor: rgba(21, 129, 144, 0.1);
+$theMenuColor: rgb(230, 230, 230);
+$theLigthGray: rgb(179, 179, 179);
+$theGray: rgb(128, 128, 128);
+
 .header {
   border-style: none;
   background-image: linear-gradient(90deg, #31337d, #01b59c);
 }
 
 .badge {
-  background-color: rgb(21, 129, 144);
+  background-color: $theBlue;
 }
 
 .card-title {
@@ -17,7 +23,7 @@
 
 .icons {
   font-size: 30px;
-  color: rgb(21, 129, 144);
+  color: $theBlue;
 }
 
 .cardInfo {
@@ -27,44 +33,44 @@
 }
 
 .ball {
-  color: rgba(21, 129, 144, 0.1);
+  color: $theBallColor;
   width: 35px;
   height: 35px;
   position: absolute;
 }
 
 .menu {
-  background-color: rgb(230, 230, 230);
+  background-color: $theMenuColor;
 }
 
 .menu .navbar-brand {
-  color: rgb(128, 128, 128);
+  color: $theGray;
 }
 
 .menu .navbar-brand:hover {
-  color: rgb(128, 128, 128);
+  color: $theGray;
 }
 
 .menuLinks .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link {
-  color: rgb(179, 179, 179);
+  color: $theLigthGray;
 }
 
 .menuLinks .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: rgb(128, 128, 128);
+  color: $theGray;
 }
 
 .menuLinks .navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:focus {
-  color: rgb(179, 179, 179);
+  color: $theLigthGray;
 }
 
 .menuLinks .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show > .nav-link {
-  color: rgb(128, 128, 128);
+  color: $theGray;
 }
 
 .navbar-dark .navbar-toggler-icon {

@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import Container from 'react-bootstrap/Container';
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -95,7 +96,7 @@ class App extends React.Component {
   render() {
     return (
       <div
-        style={{ fontFamily: "Roboto, sans-serif" }}
+        style = {{ fontFamily: "Roboto, sans-serif" }}
         className="container-fluid col-lg-9 col-md-11 col-sm-9"
       >
         <div ref={this.header}>
@@ -107,42 +108,45 @@ class App extends React.Component {
           variant="dark"
           className="rounded menu"
         >
-          <Navbar.Brand
-            onTouchEnd={() => this.scrollToElement("header")}
-            onClick={() => {
-              this.scrollToElement("header");
-              this.removeActive();
-            }}
-          >
-            Curriculum Vitae
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="menuLinks mr-auto">
-              <Nav.Link
-                id={"educationLink"}
-                onTouchEnd={() => this.scrollToElement("education")}
-                onClick={() => this.scrollToElement("education")}
-              >
-                Education
-              </Nav.Link>
-              <Nav.Link
-                id={"experienceLink"}
-                onTouchEnd={() => this.scrollToElement("experience")}
-                onClick={() => this.scrollToElement("experience")}
-              >
-                Professional experience
-              </Nav.Link>
-              <Nav.Link
-                id={"skillsLink"}
-                onTouchEnd={() => this.scrollToElement("skills")}
-                onClick={() => this.scrollToElement("skills")}
-              >
-                Skills
-              </Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
+          <Container>
+            <Navbar.Brand
+              onTouchEnd={() => this.scrollToElement("header")}
+              onClick={() => {
+                this.scrollToElement("header");
+                this.removeActive();
+              }}
+            >
+              Curriculum Vitae
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+              <Nav className="menuLinks mr-auto">
+                <Nav.Link
+                  id={"educationLink"}
+                  onTouchEnd={() => this.scrollToElement("education")}
+                  onClick={() => this.scrollToElement("education")}
+                >
+                  Education
+                </Nav.Link>
+                <Nav.Link
+                  id={"experienceLink"}
+                  onTouchEnd={() => this.scrollToElement("experience")}
+                  onClick={() => this.scrollToElement("experience")}
+                >
+                  Professional experience
+                </Nav.Link>
+                <Nav.Link
+                  id={"skillsLink"}
+                  onTouchEnd={() => this.scrollToElement("skills")}
+                  onClick={() => this.scrollToElement("skills")}
+                >
+                  Skills
+                </Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Container>
         </Navbar>
+         
         <div
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom"

@@ -1,7 +1,7 @@
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import "./styles.css";
+import "./styles.scss";
 import myAvatar from "./foto_cv22.jpg";
 
 function PersonalInfo() {
