@@ -7,7 +7,7 @@ function Header() {
       <div style={{ marginTop: "20px", marginBottom: "10px"}}>
         <h1 className="myName">Francisco Villanueva</h1>
         <h4 style={{fontWeight: "400"}}>
-          Ingeniero en Electrónica y Comunicaciones
+          Software Developer
         </h4>
       </div>
     </Card>

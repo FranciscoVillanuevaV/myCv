@@ -10,14 +10,32 @@ function Experience() {
           experience
         </Card.Title>
         <br />
-        <Card.Subtitle>Software developer at FEMSA</Card.Subtitle>
+        <Card.Subtitle>Software developer at Deloitte</Card.Subtitle>
         <br />
         <Card.Text>
-          <i className="far fa-calendar-alt fa-fw icons"></i> 2023 -{" "}
+          <i className="far fa-calendar-alt fa-fw icons"></i> 2024 -{" "}
           <span className="h1 badge text-white">Current job</span>
         </Card.Text>
         <Card.Text className="text-justify">
-          Maintenance and extension of .NET APIs and web applications built on .NET MVC and Angular.
+          Engineered robust .NET APIs with seamless SQL database integration via Entity Framework.
+        </Card.Text>
+        <hr />
+        <Card.Subtitle>Software developer at TCS</Card.Subtitle>
+        <br />
+        <Card.Text>
+          <i className="far fa-calendar-alt fa-fw icons"></i> Apr 2024 - Oct 2024
+        </Card.Text>
+        <Card.Text className="text-justify">
+          Contributed to the enhancement of ASP.NET Core applications integrated with React, leveraging Azure DevOps for continuous development and deployment.
+        </Card.Text>  
+        <hr />
+        <Card.Subtitle>Software developer at FEMSA</Card.Subtitle>
+        <br />
+        <Card.Text>
+          <i className="far fa-calendar-alt fa-fw icons"></i> 2023 - 2024
+        </Card.Text>
+        <Card.Text className="text-justify">
+          Provided maintenance and enhancement for .NET APIs and web applications across .NET MVC and Angular frameworks.
         </Card.Text>      
         <hr />
         <Card.Subtitle>Software developer at Akky Online Solutions</Card.Subtitle>
@@ -26,8 +44,7 @@ function Experience() {
           <i className="far fa-calendar-alt fa-fw icons"></i> 2021 - 2023
         </Card.Text>
         <Card.Text className="text-justify">
-          Main activities are related to the maintenance and extension of APIs, built on .NET and Java. 
-          Using tools like LINQ and Entity Framework in .NET and technologies like Apache Cxf and JDBC in Java.
+          Managed and extended APIs for solutions developed with .NET (LINQ, Entity Framework) and Java (Apache CXF, JDBC).
         </Card.Text>      
         <hr />
         <Card.Subtitle>Software developer at Softtek</Card.Subtitle>
@@ -36,19 +53,8 @@ function Experience() {
           <i className="far fa-calendar-alt fa-fw icons"></i> 2019 - 2021
         </Card.Text>
         <Card.Text className="text-justify">
-          .NET development of web apps and web APIs. This role was related to ASP.NET Web pages. 
-          The backend was built on .NET core APIs, using LINQ and Entity Framework as an ORM.
+          Developed ASP.NET web applications and RESTful APIs using .NET Core, LINQ, and Entity Framework.
         </Card.Text>
-        <hr />
-        <Card.Subtitle>Professor at UVM</Card.Subtitle>
-        <br />
-        <Card.Text>
-          <i className="far fa-calendar-alt fa-fw icons"></i> 2018 - 2019
-        </Card.Text>
-        <Card.Text className="text-justify">
-          Using Python with Anaconda packages for educational purposes.
-        </Card.Text>
-        <hr />
       </Card.Body>
     </Card>
   );

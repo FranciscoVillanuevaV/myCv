@@ -37,9 +37,6 @@ function Skills() {
             SVN
           </Col>
           <Col style={{ marginBottom: "10px" }} xs={6} md={4}>
-            Postman
-          </Col>
-          <Col style={{ marginBottom: "10px" }} xs={6} md={4}>
             Python
           </Col>
           <Col style={{ marginBottom: "10px" }} xs={6} md={4}>
@@ -66,9 +63,6 @@ function Skills() {
         <Row>
           <Col style={{ marginBottom: "10px" }} xs={12}>
             English - B2
-          </Col>
-          <Col style={{ marginBottom: "10px" }} xs={12}>
-            German - A2
           </Col>
         </Row>
       </Card.Body>
